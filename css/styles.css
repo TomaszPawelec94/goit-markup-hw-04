@@ -125,6 +125,7 @@ ul {
   font-size: 14px;
   line-height: 1.17;
   margin: 0 25px;
+  fill: currentColor;
 }
 
 .link-contact:first-child {
@@ -147,6 +148,10 @@ ul {
 
 .link-contact:is(:hover, :focus) {
   color: var(--brand-color);
+}
+
+.contact-icon {
+  margin-right: 10px;
 }
 
 .link-style {
@@ -179,9 +184,18 @@ ul {
   display: flex;
   flex-flow: column wrap;
   align-items: center;
-  background-color: var(--main-background);
   padding-top: 200px;
   padding-bottom: 200px;
+  background-color: rgba(47, 48, 58, 0.4);
+  background: url(/images/overlay.png), url("/images/background.jpg");
+  max-width: 1600px;
+}
+.our-adventages {
+  background-color: rgba(245, 244, 250, 1);
+  border-radius: 4px;
+  box-sizing: content-box;
+  padding: 25px 102.34px;
+  margin-bottom: 30px;
 }
 
 .title {
