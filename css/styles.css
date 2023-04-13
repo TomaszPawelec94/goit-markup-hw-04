@@ -189,7 +189,7 @@ ul {
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: rgba(47, 48, 58, 0.4);
-  background: url(/images/overlay.png), url("/images/background.jpg");
+  background: url(../images/overlay.png), url(../images/background.jpg);
   background-repeat: no-repeat;
   background-position: center;
   /* max-width: 1600px; */
