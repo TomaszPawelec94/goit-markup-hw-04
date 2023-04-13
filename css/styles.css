@@ -188,7 +188,9 @@ ul {
   padding-bottom: 200px;
   background-color: rgba(47, 48, 58, 0.4);
   background: url(/images/overlay.png), url("/images/background.jpg");
-  max-width: 1600px;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* max-width: 1600px; */
 }
 .our-adventages {
   background-color: rgba(245, 244, 250, 1);
@@ -196,6 +198,30 @@ ul {
   box-sizing: content-box;
   padding: 25px 102.34px;
   margin-bottom: 30px;
+}
+
+.team-social-links-list {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.team-social-link {
+  fill: #afb1b8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12;
+  width: 44px;
+  height: 44px;
+}
+
+.team-social-link:is(:hover, :focus) {
+  fill: var(--background-white);
+  background-color: var(--brand-color);
+  border-radius: 50%;
 }
 
 .title {
@@ -313,4 +339,68 @@ ul {
   font-size: 16px;
   color: var(--grey);
   line-height: 1.86;
+}
+
+.join-us {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: var(--background-white);
+  letter-spacing: 0.03em;
+}
+
+.footer-style > .container {
+  display: flex;
+  gap: 70px;
+  align-items: baseline;
+}
+
+.footer-social-links-list {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.footer-social-link {
+  fill: var(--background-white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+
+.footer-social-link:is(:hover, :focus) {
+  fill: var(--background-white);
+  background-color: var(--brand-color);
+  border-radius: 50%;
+}
+
+.our-client-link {
+  box-sizing: border-box;
+  width: 170px;
+  height: 92px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: #afb1b8;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+
+.our-clients-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.our-client-link:is(:hover, :focus) {
+  fill: var(--brand-color);
+  border: 1px solid var(--brand-color);
 }
