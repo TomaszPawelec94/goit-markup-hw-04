@@ -296,6 +296,7 @@ ul {
 
 .box-team > img {
   padding-bottom: 30px;
+  box-sizing: content-box;
 }
 
 .section {
