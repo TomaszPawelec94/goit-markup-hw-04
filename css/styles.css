@@ -28,6 +28,9 @@ body {
   padding: 0 15px;
 }
 
+.top {
+  display: flex;
+}
 .header-top {
   display: flex;
   justify-content: space-between;
@@ -128,6 +131,9 @@ ul {
   line-height: 1.17;
   margin: 0 25px;
   fill: currentColor;
+  display: inline-flex;
+  justify-content: baseline;
+  align-items: center;
 }
 
 .link-contact:first-child {
